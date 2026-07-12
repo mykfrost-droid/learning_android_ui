@@ -32,4 +32,13 @@
         android:text="Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <CheckBox
+        android:layout_below="@+id/edit_username"
+        android:layout_alignParentRight="true"
+        android:text="Remember Username?"
+        android:layout_alignBottom="@+id/button_login"
+        android:id="@+id/checkbox_remember_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
