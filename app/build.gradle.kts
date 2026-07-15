@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "co.ke.eurochef.android.uiclass"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "co.ke.eurochef.android.uiclass"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
