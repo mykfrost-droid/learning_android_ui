@@ -12,13 +12,19 @@ import java.util.List;
 public class CatalogAdapter  extends BaseAdapter {
     private List<String> catalogItems ;
     private Context context;
+
+    public CatalogAdapter(Context context, List<String> catalogItems) {
+        this.context = context;
+        this.catalogItems = catalogItems;
+    }
+    // ==========================================
     @Override
     public int getCount() {
         return  catalogItems.size();
     }
 
     @Override
-    public Object getItem(int position) {
+    public String getItem(int position) {
         return catalogItems.get(position);
     }
 
